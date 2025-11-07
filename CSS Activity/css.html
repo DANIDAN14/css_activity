@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Filters</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 p-6">
+  <div class="max-w-7xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="bg-white rounded shadow overflow-hidden">
+      <img src="funi.jpg" class="w-full h-56 object-cover filter brightness-110" />
+      <p class="p-3 text-center">Brightness</p>
+    </div>
+    <div class="bg-white rounded shadow overflow-hidden">
+      <img src="funi.jpg" class="w-full h-56 object-cover filter grayscale" />
+      <p class="p-3 text-center">Grayscale</p>
+    </div>
+    <div class="bg-white rounded shadow overflow-hidden">
+      <img src="funi.jpg" class="w-full h-56 object-cover filter blur-sm" />
+      <p class="p-3 text-center">Blur</p>
+    </div>
+    <div class="bg-white rounded shadow overflow-hidden">
+      <img src="funi.jpg" class="w-full h-56 object-cover filter sepia" />
+      <p class="p-3 text-center">Sepia</p>
+    </div>
+    <div class="bg-white rounded shadow overflow-hidden">
+      <img src="funi.jpg" class="w-full h-56 object-cover filter contrast-125" />
+      <p class="p-3 text-center">Contrast</p>
+ </div>
+  <div class="bg-white rounded shadow overflow-hidden">
+<img src="funi.jpg" class="w-full h-56 object-cover filter hue-rotate-90" />
+<p class="p-3 text-center">Hue Rotate</p>
